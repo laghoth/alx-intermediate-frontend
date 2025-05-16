@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Image Gallery</title>
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body class="p-4">
+    <!-- Header -->
+    <header>
+      <h1 class="text-2xl font-bold mb-4">
+        Complex Grid Layout with Nested Grids
+      </h1>
+    </header>
+
+    <main class="grid grid-cols-2 gap-4">
+      <div class="grid grid-cols-2 p-4 gap-2 bg-blue-200">
+        <div class="bg-blue-400 p-2">Nested 1</div>
+        <div class="bg-blue-500 p-2">Nested 2</div>
+      </div>
+      <div class="grid grid-cols-2 p-4 gap-2 bg-red-200">
+        <div class="bg-red-400 p-2">Nested 3</div>
+        <div class="bg-red-500 p-2">Nested 4</div>
+      </div>
+      <div class="bg-green-200 p-4">Content 3</div>
+      <div class="bg-yellow-200 p-4">Content 4</div>
+    </main>
+
+    <section class="mt-8">
+      <h2 class="text-xl font-semibold mb-4">Image Gallery</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <img
+          src="https://sp-ao.shortpixel.ai/client/to_auto,q_lossy,ret_img,w_1024/https://trend-recipes.com/wp-content/uploads/2025/03/Marry-Me-Chicken-Pasta-Recipe-7-1024x775.webp"
+          alt="Image 1"
+          class="w-full h-auto rounded shadow"
+        />
+        <img
+          src="https://sp-ao.shortpixel.ai/client/to_auto,q_lossy,ret_img,w_1024/https://trend-recipes.com/wp-content/uploads/2025/03/Marry-Me-Chicken-Pasta-Recipe-1-1024x775.webp"
+          alt="Image 2"
+          class="w-full h-auto rounded shadow"
+        />
+        <img
+          src="https://sp-ao.shortpixel.ai/client/to_auto,q_lossy,ret_img,w_1024/https://trend-recipes.com/wp-content/uploads/2025/02/Sheet-Pan-Chicken-Fajitas-2-1024x775.webp"
+          alt="Image 3"
+          class="w-full h-auto rounded shadow"
+        />
+        <img
+          src="https://sp-ao.shortpixel.ai/client/to_auto,q_lossy,ret_img,w_1024/https://trend-recipes.com/wp-content/uploads/2025/02/Sheet-Pan-Chicken-Fajitas-ingredients.webp"
+          alt="Image 4"
+          class="w-full h-auto rounded shadow"
+        />
+        <img
+          src="https://sp-ao.shortpixel.ai/client/to_auto,q_lossy,ret_img,w_1024/https://trend-recipes.com/wp-content/uploads/2025/01/Classic-Hearty-Beef-Stew-1-1024x775.png"
+          alt="Image 5"
+          class="w-full h-auto rounded shadow"
+        />
+        <img
+          src="https://sp-ao.shortpixel.ai/client/to_auto,q_lossy,ret_img,w_1024/https://trend-recipes.com/wp-content/uploads/2025/01/Classic-Hearty-Beef-Stew-6-1024x775.png"
+          alt="Image 6"
+          class="w-full h-auto rounded shadow"
+        />
+      </div>
+    </section>
+  </body>
+</html>
