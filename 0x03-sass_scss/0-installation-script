@@ -1,0 +1,11 @@
+1. Downloaded and installed Node.js v20.16 from the official website:
+   https://nodejs.org/
+
+2. Verified Node installation:
+   node -v
+
+3. Opened terminal (PowerShell) and installed Sass using npm:
+   npm install sass -v 3.7.4
+
+4. Verified Sass installation:
+   npx sass --version
